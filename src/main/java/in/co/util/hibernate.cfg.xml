@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">1234</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3309/MedicoDB</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    	<property name="hibernate.hbm2ddl.auto">update</property>
+    	<property name="show_sql">true</property>
+    	<property name="hibernate.current_session_context_class">
+org.hibernate.context.internal.ThreadLocalSessionContext
+</property>
+<mapping class="in.co.dto.CatBean"/>
+<mapping class="in.co.dto.CustomerBean"/>
+<mapping class="in.co.dto.CustomerAddressBean"/>
+<mapping class="in.co.dto.GenricBean"/>
+<mapping class="in.co.dto.ManufactureBean"/>
+<mapping class="in.co.dto.OrderBean"/>
+<mapping class="in.co.dto.OrderItembean"/>
+<mapping class="in.co.dto.P_InfoBean"/>
+<mapping class="in.co.dto.PackageBeans"/>
+<mapping class="in.co.dto.ProBean"/>
+<mapping class="in.co.dto.StrengthBean"/>
+<mapping class="in.co.dto.USBrandBean"/>
+    </session-factory>
+</hibernate-configuration>
+ -->
